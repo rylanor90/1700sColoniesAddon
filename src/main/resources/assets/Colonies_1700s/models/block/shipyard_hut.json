@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "colonies_1700s:block/shipyard_hut"
+  }
+}

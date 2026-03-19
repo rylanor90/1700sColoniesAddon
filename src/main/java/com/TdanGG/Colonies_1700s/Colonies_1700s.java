@@ -1,5 +1,6 @@
 package com.TdanGG.Colonies_1700s;
 
+import com.TdanGG.Colonies_1700s.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -44,6 +45,10 @@ public class Colonies_1700s
     public Colonies_1700s(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModItems.register(modEventBus);
+
+
 
         NeoForge.EVENT_BUS.register(this);
 

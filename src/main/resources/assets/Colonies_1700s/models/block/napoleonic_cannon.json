@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft/block_all",
+  "textures": {
+  "all": "colonies_1700s:block/napoleonic_cannon"
+ }
+}
